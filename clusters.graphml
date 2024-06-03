@@ -1,0 +1,2173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+  <!-- property keys -->
+  <key id="key0" for="edge" attr.name="color" attr.type="string" />
+  <key id="key1" for="edge" attr.name="count" attr.type="int" />
+  <key id="key2" for="node" attr.name="keyword_count" attr.type="int" />
+  <key id="key3" for="node" attr.name="keywords" attr.type="string" />
+  <key id="key4" for="node" attr.name="label" attr.type="string" />
+  <key id="key5" for="node" attr.name="paper_count" attr.type="int" />
+  <key id="key6" for="edge" attr.name="paper_ids" attr.type="string" />
+  <key id="key7" for="node" attr.name="paper_ids" attr.type="string" />
+  <key id="key8" for="edge" attr.name="weight" attr.type="float" />
+
+  <graph id="G" edgedefault="undirected" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+
+   <!-- graph properties -->
+
+   <!-- vertices -->
+    <node id="n0">
+      <data key="key2">734</data>
+      <data key="key3">shape: (734,)
+Series: &apos;&apos; [cat]
+[
+	&quot;sustainability&quot;
+	&quot;smart city&quot;
+	&quot;digitalization&quot;
+	&quot;internet of things&quot;
+	&quot;smart cities&quot;
+	…
+	&quot;building management system (bm…
+	&quot;building technologies&quot;
+	&quot;disaster risk&quot;
+	&quot;economic development&quot;
+	&quot;planning process&quot;
+]</data>
+      <data key="key4">sustainability</data>
+      <data key="key5">492</data>
+      <data key="key7">shape: (492,)
+Series: &apos;&apos; [i64]
+[
+	1
+	2
+	3
+	4
+	5
+	…
+	538
+	539
+	540
+	541
+	543
+]</data>
+    </node>
+    <node id="n1">
+      <data key="key2">1310</data>
+      <data key="key3">shape: (1_310,)
+Series: &apos;&apos; [cat]
+[
+	&quot;resilience&quot;
+	&quot;reference architecture&quot;
+	&quot;maintenance&quot;
+	&quot;india&quot;
+	&quot;trust&quot;
+	…
+	&quot;smart education&quot;
+	&quot;pacs&quot;
+	&quot;belize&quot;
+	&quot;threats&quot;
+	&quot;fraud prevention&quot;
+]</data>
+      <data key="key4">resilience</data>
+      <data key="key5">470</data>
+      <data key="key7">shape: (470,)
+Series: &apos;&apos; [i64]
+[
+	1
+	2
+	4
+	5
+	6
+	…
+	539
+	540
+	541
+	542
+	543
+]</data>
+    </node>
+    <node id="n2">
+      <data key="key2">14</data>
+      <data key="key3">shape: (14,)
+Series: &apos;&apos; [cat]
+[
+	&quot;digital twin&quot;
+	&quot;digital twins&quot;
+	&quot;digital twin network&quot;
+	&quot;smart city digital twin&quot;
+	&quot;digital triad (dt-ii)&quot;
+	…
+	&quot;urban digital twins&quot;
+	&quot;digital twin simulation&quot;
+	&quot;building digital twin&quot;
+	&quot;electric grid digital twin fra…
+	&quot;energy digital twin&quot;
+]</data>
+      <data key="key4">digital twin</data>
+      <data key="key5">36</data>
+      <data key="key7">shape: (36,)
+Series: &apos;&apos; [i64]
+[
+	5
+	24
+	25
+	27
+	30
+	…
+	321
+	369
+	371
+	436
+	478
+]</data>
+    </node>
+    <node id="n3">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;industry 4.0&quot;
+	&quot;industry 5.0&quot;
+	&quot;industy 4.0&quot;
+	&quot;industry 4.0/5.0&quot;
+	&quot;industry revolution 4.0&quot;
+]</data>
+      <data key="key4">industry 4.0</data>
+      <data key="key5">29</data>
+      <data key="key7">shape: (29,)
+Series: &apos;&apos; [i64]
+[
+	8
+	15
+	23
+	25
+	50
+	…
+	397
+	419
+	444
+	448
+	538
+]</data>
+    </node>
+    <node id="n4">
+      <data key="key2">8</data>
+      <data key="key3">shape: (8,)
+Series: &apos;&apos; [cat]
+[
+	&quot;bim&quot;
+	&quot;building information modeling&quot;
+	&quot;building information modeling …
+	&quot;building information modelling…
+	&quot;building information modelling&quot;
+	&quot;historic building information …
+	&quot;bim (building information mode…
+	&quot;bim tool&quot;
+]</data>
+      <data key="key4">bim</data>
+      <data key="key5">25</data>
+      <data key="key7">shape: (25,)
+Series: &apos;&apos; [i64]
+[
+	32
+	66
+	85
+	96
+	129
+	…
+	404
+	435
+	452
+	453
+	529
+]</data>
+    </node>
+    <node id="n5">
+      <data key="key2">15</data>
+      <data key="key3">shape: (15,)
+Series: &apos;&apos; [cat]
+[
+	&quot;smart building&quot;
+	&quot;smart buildings&quot;
+	&quot;smart environment&quot;
+	&quot;smart ecosystem&quot;
+	&quot;digital ecosystem&quot;
+	…
+	&quot;smart building projects&quot;
+	&quot;intelligent buildings&quot;
+	&quot;intelligent architecture&quot;
+	&quot;smart communities&quot;
+	&quot;intelligent environments&quot;
+]</data>
+      <data key="key4">smart building</data>
+      <data key="key5">20</data>
+      <data key="key7">shape: (20,)
+Series: &apos;&apos; [i64]
+[
+	13
+	27
+	59
+	67
+	106
+	…
+	400
+	403
+	454
+	481
+	482
+]</data>
+    </node>
+    <node id="n6">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;life cycle assessment&quot;
+	&quot;life cycle assessment (lca)&quot;
+	&quot;lca&quot;
+	&quot;life cycle inventory (lci)&quot;
+]</data>
+      <data key="key4">life cycle assessment</data>
+      <data key="key5">11</data>
+      <data key="key7">shape: (11,)
+Series: &apos;&apos; [i64]
+[
+	32
+	66
+	76
+	171
+	331
+	…
+	342
+	377
+	432
+	453
+	455
+]</data>
+    </node>
+    <node id="n7">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;green innovation&quot;
+	&quot;green technology innovation&quot;
+	&quot;green technological innovation&quot;
+	&quot;firm green innovation&quot;
+	&quot;green technology innovations&quot;
+]</data>
+      <data key="key4">green innovation</data>
+      <data key="key5">11</data>
+      <data key="key7">shape: (11,)
+Series: &apos;&apos; [i64]
+[
+	7
+	44
+	49
+	63
+	88
+	…
+	110
+	114
+	154
+	177
+	194
+]</data>
+    </node>
+    <node id="n8">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;covid-19&quot;
+	&quot;covid-19 pandemic&quot;
+	&quot;coronavirus disease (covid-19)…
+	&quot;coronavirus disease 2019 (covi…
+	&quot;coronavirus&quot;
+]</data>
+      <data key="key4">covid-19</data>
+      <data key="key5">9</data>
+      <data key="key7">shape: (9,)
+Series: &apos;&apos; [i64]
+[
+	135
+	151
+	168
+	248
+	281
+	319
+	321
+	322
+	369
+]</data>
+    </node>
+    <node id="n9">
+      <data key="key2">9</data>
+      <data key="key3">shape: (9,)
+Series: &apos;&apos; [cat]
+[
+	&quot;waste management&quot;
+	&quot;recycling&quot;
+	&quot;waste planning&quot;
+	&quot;solid waste management&quot;
+	&quot;zero waste&quot;
+	&quot;waste estimation&quot;
+	&quot;waste&quot;
+	&quot;waste collection&quot;
+	&quot;waste recycling&quot;
+]</data>
+      <data key="key4">waste management</data>
+      <data key="key5">8</data>
+      <data key="key7">shape: (8,)
+Series: &apos;&apos; [i64]
+[
+	19
+	21
+	141
+	149
+	211
+	502
+	529
+	533
+]</data>
+    </node>
+    <node id="n10">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;automation&quot;
+	&quot;business process&quot;
+	&quot;process&quot;
+	&quot;scientific process&quot;
+	&quot;processing&quot;
+]</data>
+      <data key="key4">automation</data>
+      <data key="key5">8</data>
+      <data key="key7">shape: (8,)
+Series: &apos;&apos; [i64]
+[
+	35
+	46
+	138
+	147
+	223
+	358
+	383
+	461
+]</data>
+    </node>
+    <node id="n11">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;simulation&quot;
+	&quot;simulation tool&quot;
+	&quot;numerical simulation&quot;
+]</data>
+      <data key="key4">simulation</data>
+      <data key="key5">7</data>
+      <data key="key7">shape: (7,)
+Series: &apos;&apos; [i64]
+[
+	151
+	189
+	398
+	427
+	440
+	444
+	487
+]</data>
+    </node>
+    <node id="n12">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;cloud computing&quot;
+	&quot;cloud&quot;
+	&quot;cloud services&quot;
+	&quot;cloud server&quot;
+	&quot;cloud computing (cc)&quot;
+]</data>
+      <data key="key4">cloud computing</data>
+      <data key="key5">7</data>
+      <data key="key7">shape: (7,)
+Series: &apos;&apos; [i64]
+[
+	141
+	165
+	180
+	216
+	297
+	393
+	520
+]</data>
+    </node>
+    <node id="n13">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;spatial spillover effect&quot;
+	&quot;spillover effects&quot;
+	&quot;spatial spillover&quot;
+	&quot;spatial effect&quot;
+]</data>
+      <data key="key4">spatial spillover effect</data>
+      <data key="key5">7</data>
+      <data key="key7">shape: (7,)
+Series: &apos;&apos; [i64]
+[
+	65
+	82
+	99
+	114
+	136
+	214
+	229
+]</data>
+    </node>
+    <node id="n14">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;computational design&quot;
+	&quot;computer aided design&quot;
+	&quot;computer-aided engineering&quot;
+	&quot;computer-aided design&quot;
+]</data>
+      <data key="key4">computational design</data>
+      <data key="key5">7</data>
+      <data key="key7">shape: (7,)
+Series: &apos;&apos; [i64]
+[
+	160
+	382
+	389
+	467
+	487
+	494
+	509
+]</data>
+    </node>
+    <node id="n15">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;mechanical properties&quot;
+	&quot;workability and mechanical pro…
+	&quot;mechanical performance&quot;
+]</data>
+      <data key="key4">mechanical properties</data>
+      <data key="key5">6</data>
+      <data key="key7">shape: (6,)
+Series: &apos;&apos; [i64]
+[
+	73
+	78
+	80
+	94
+	138
+	411
+]</data>
+    </node>
+    <node id="n16">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;demand response&quot;
+	&quot;demand response optimization&quot;
+	&quot;demand response program&quot;
+	&quot;electric grid optimization&quot;
+]</data>
+      <data key="key4">demand response</data>
+      <data key="key5">6</data>
+      <data key="key7">shape: (6,)
+Series: &apos;&apos; [i64]
+[
+	72
+	89
+	252
+	333
+	353
+	423
+]</data>
+    </node>
+    <node id="n17">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;3d digital model&quot;
+	&quot;3d digital prototype&quot;
+	&quot;digital surface model&quot;
+	&quot;digital elevations models&quot;
+	&quot;digital surface models&quot;
+]</data>
+      <data key="key4">3d digital model</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	28
+	96
+	382
+	401
+	488
+]</data>
+    </node>
+    <node id="n18">
+      <data key="key2">6</data>
+      <data key="key3">shape: (6,)
+Series: &apos;&apos; [cat]
+[
+	&quot;community-oriented energy poli…
+	&quot;community energy storage&quot;
+	&quot;local energy initiatives&quot;
+	&quot;local energy community&quot;
+	&quot;community energy&quot;
+	&quot;decentralized energy community&quot;
+]</data>
+      <data key="key4">community-oriented energy policies</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	40
+	242
+	300
+	303
+	380
+]</data>
+    </node>
+    <node id="n19">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;electric vehicles&quot;
+	&quot;electric vehicle&quot;
+	&quot;electric vehicles (ev)&quot;
+]</data>
+      <data key="key4">electric vehicles</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	67
+	70
+	119
+	178
+	289
+]</data>
+    </node>
+    <node id="n20">
+      <data key="key2">7</data>
+      <data key="key3">shape: (7,)
+Series: &apos;&apos; [cat]
+[
+	&quot;smart logistics&quot;
+	&quot;green logistics&quot;
+	&quot;city logistics&quot;
+	&quot;urban logistics&quot;
+	&quot;urban cycle logistics&quot;
+	&quot;sustainable urban logistics&quot;
+	&quot;sustainable logistics&quot;
+]</data>
+      <data key="key4">smart logistics</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	68
+	74
+	210
+	386
+	447
+]</data>
+    </node>
+    <node id="n21">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;construction and demolition wa…
+	&quot;building demolition waste&quot;
+	&quot;demolition&quot;
+	&quot;building demolition&quot;
+	&quot;construction and demolition (c…
+]</data>
+      <data key="key4">construction and demolition waste</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	149
+	219
+	267
+	335
+	529
+]</data>
+    </node>
+    <node id="n22">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;edge computing&quot;
+	&quot;edge-computing&quot;
+	&quot;fog computing&quot;
+]</data>
+      <data key="key4">edge computing</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	60
+	166
+	180
+	300
+	457
+]</data>
+    </node>
+    <node id="n23">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;robotics&quot;
+	&quot;mobile robotics&quot;
+	&quot;advanced robotics&quot;
+]</data>
+      <data key="key4">robotics</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	144
+	160
+	269
+	358
+	383
+]</data>
+    </node>
+    <node id="n24">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;difference-in-differences&quot;
+	&quot;multiple period difference-in-…
+	&quot;difference-in-differences mode…
+	&quot;difference-in-difference model&quot;
+]</data>
+      <data key="key4">difference-in-differences</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	49
+	65
+	92
+	154
+	155
+]</data>
+    </node>
+    <node id="n25">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;bibliometric analysis&quot;
+	&quot;scientometric analysis&quot;
+	&quot;scientometric review&quot;
+]</data>
+      <data key="key4">bibliometric analysis</data>
+      <data key="key5">5</data>
+      <data key="key7">shape: (5,)
+Series: &apos;&apos; [i64]
+[
+	247
+	350
+	399
+	420
+	439
+]</data>
+    </node>
+    <node id="n26">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;quality of life&quot;
+	&quot;liveability&quot;
+	&quot;livability&quot;
+]</data>
+      <data key="key4">quality of life</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	299
+	429
+	480
+	541
+]</data>
+    </node>
+    <node id="n27">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;business model&quot;
+	&quot;business models&quot;
+	&quot;service models&quot;
+]</data>
+      <data key="key4">business model</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	31
+	67
+	523
+	538
+]</data>
+    </node>
+    <node id="n28">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;strategies&quot;
+	&quot;smart strategy&quot;
+	&quot;smart strategies&quot;
+]</data>
+      <data key="key4">strategies</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	59
+	158
+	274
+	314
+]</data>
+    </node>
+    <node id="n29">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;autonomous driving&quot;
+	&quot;autonomous vehicle&quot;
+	&quot;autonomous vehicles&quot;
+	&quot;intelligent autonomous vehicle…
+]</data>
+      <data key="key4">autonomous driving</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	144
+	185
+	227
+	427
+]</data>
+    </node>
+    <node id="n30">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;rural development&quot;
+	&quot;rural context&quot;
+	&quot;rural areas&quot;
+	&quot;rural communications&quot;
+]</data>
+      <data key="key4">rural development</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	13
+	344
+	438
+	493
+]</data>
+    </node>
+    <node id="n31">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;learning communities&quot;
+	&quot;online discussion boards&quot;
+	&quot;online communities&quot;
+	&quot;online learning community (olc…
+]</data>
+      <data key="key4">learning communities</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	334
+	343
+	380
+	507
+]</data>
+    </node>
+    <node id="n32">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;decarbonization policies&quot;
+	&quot;decarbonization&quot;
+	&quot;decarbonisation&quot;
+]</data>
+      <data key="key4">decarbonization policies</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	12
+	76
+	183
+	218
+]</data>
+    </node>
+    <node id="n33">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;collaborative consumption&quot;
+	&quot;sharing economy&quot;
+	&quot;collaborative economy&quot;
+	&quot;digital sharing economy&quot;
+]</data>
+      <data key="key4">collaborative consumption</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	349
+	399
+	414
+	473
+]</data>
+    </node>
+    <node id="n34">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;knowledge ontology&quot;
+	&quot;ontology and semantics&quot;
+	&quot;ontology&quot;
+	&quot;knowledge graph&quot;
+]</data>
+      <data key="key4">knowledge ontology</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	53
+	71
+	391
+	490
+]</data>
+    </node>
+    <node id="n35">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;water management&quot;
+	&quot;stormwater management&quot;
+	&quot;wastewater management&quot;
+]</data>
+      <data key="key4">water management</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	79
+	134
+	305
+	440
+]</data>
+    </node>
+    <node id="n36">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;climate neutrality&quot;
+	&quot;carbon-neutrality&quot;
+	&quot;carbon neutrality&quot;
+]</data>
+      <data key="key4">climate neutrality</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	4
+	12
+	17
+	79
+]</data>
+    </node>
+    <node id="n37">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;energy storage&quot;
+	&quot;thermal energy storage&quot;
+	&quot;energy storage system&quot;
+	&quot;battery storage&quot;
+]</data>
+      <data key="key4">energy storage</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	105
+	117
+	304
+	364
+]</data>
+    </node>
+    <node id="n38">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;mobility as a service&quot;
+	&quot;electric mobility-as-a-service&quot;
+	&quot;mobility as a service (maas)&quot;
+]</data>
+      <data key="key4">mobility as a service</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	67
+	170
+	395
+	424
+]</data>
+    </node>
+    <node id="n39">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;smart health&quot;
+	&quot;smart eldercare&quot;
+	&quot;smart healthcare&quot;
+]</data>
+      <data key="key4">smart health</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	157
+	165
+	322
+	408
+]</data>
+    </node>
+    <node id="n40">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;pumpability 3d-printable concr…
+	&quot;3d printed concrete&quot;
+	&quot;3d-printed concrete&quot;
+	&quot;concrete 3d printing (3dp)&quot;
+]</data>
+      <data key="key4">pumpability 3d-printable concrete</data>
+      <data key="key5">4</data>
+      <data key="key7">shape: (4,)
+Series: &apos;&apos; [i64]
+[
+	80
+	126
+	257
+	331
+]</data>
+    </node>
+    <node id="n41">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;structural equation model&quot;
+	&quot;structural equation modeling&quot;
+	&quot;structural equation modelling&quot;
+]</data>
+      <data key="key4">structural equation model</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	24
+	38
+	61
+]</data>
+    </node>
+    <node id="n42">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;fibre reinforced concrete (frc…
+	&quot;fiber-reinforced cement compos…
+	&quot;engineered cementitious compos…
+	&quot;ultra-high-performance fibre r…
+]</data>
+      <data key="key4">fibre reinforced concrete (frc)</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	80
+	126
+	228
+]</data>
+    </node>
+    <node id="n43">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;corporate sustainable developm…
+	&quot;corporate sustainability&quot;
+	&quot;sustainable business&quot;
+]</data>
+      <data key="key4">corporate sustainable development</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	39
+	230
+	275
+]</data>
+    </node>
+    <node id="n44">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;performance optimisation&quot;
+	&quot;optimization&quot;
+	&quot;optimisation&quot;
+]</data>
+      <data key="key4">performance optimisation</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	28
+	347
+	487
+]</data>
+    </node>
+    <node id="n45">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;green building rating system&quot;
+	&quot;green building rating systems&quot;
+	&quot;sustainable rating systems&quot;
+]</data>
+      <data key="key4">green building rating system</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	195
+	244
+	280
+]</data>
+    </node>
+    <node id="n46">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;self-powered sensing&quot;
+	&quot;self-powered sensor&quot;
+	&quot;self-powered&quot;
+]</data>
+      <data key="key4">self-powered sensing</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	18
+	355
+	387
+]</data>
+    </node>
+    <node id="n47">
+      <data key="key2">4</data>
+      <data key="key3">shape: (4,)
+Series: &apos;&apos; [cat]
+[
+	&quot;car-sharing&quot;
+	&quot;shared bikes&quot;
+	&quot;shared mobility&quot;
+	&quot;ridesharing&quot;
+]</data>
+      <data key="key4">car-sharing</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	164
+	188
+	284
+]</data>
+    </node>
+    <node id="n48">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;learning through design&quot;
+	&quot;21st-century design education&quot;
+	&quot;design education&quot;
+]</data>
+      <data key="key4">learning through design</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	45
+	492
+	509
+]</data>
+    </node>
+    <node id="n49">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;multi-radio wireless sensor ne…
+	&quot;wireless sensor network&quot;
+	&quot;sensor networks&quot;
+]</data>
+      <data key="key4">multi-radio wireless sensor networks</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	125
+	477
+	511
+]</data>
+    </node>
+    <node id="n50">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;distributed generation&quot;
+	&quot;distributed energy system&quot;
+	&quot;distributed energy systems&quot;
+	&quot;renewable energy system&quot;
+	&quot;distributed energy generation&quot;
+]</data>
+      <data key="key4">distributed generation</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	105
+	143
+	423
+]</data>
+    </node>
+    <node id="n51">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;heterogeneity analysis&quot;
+	&quot;heterogeneity&quot;
+	&quot;homogeneity&quot;
+]</data>
+      <data key="key4">heterogeneity analysis</data>
+      <data key="key5">3</data>
+      <data key="key7">shape: (3,)
+Series: &apos;&apos; [i64]
+[
+	11
+	155
+	470
+]</data>
+    </node>
+    <node id="n52">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;zero carbon-ready building&quot;
+	&quot;zero energy building&quot;
+	&quot;zero energy housing&quot;
+]</data>
+      <data key="key4">zero carbon-ready building</data>
+      <data key="key5">2</data>
+      <data key="key7">shape: (2,)
+Series: &apos;&apos; [i64]
+[
+	208
+	280
+]</data>
+    </node>
+    <node id="n53">
+      <data key="key2">5</data>
+      <data key="key3">shape: (5,)
+Series: &apos;&apos; [cat]
+[
+	&quot;whole timber&quot;
+	&quot;timber structures&quot;
+	&quot;round timber&quot;
+	&quot;timber structure&quot;
+	&quot;timber connections&quot;
+]</data>
+      <data key="key4">whole timber</data>
+      <data key="key5">2</data>
+      <data key="key7">shape: (2,)
+Series: &apos;&apos; [i64]
+[
+	389
+	409
+]</data>
+    </node>
+    <node id="n54">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;chemicals&quot;
+	&quot;chemistry&quot;
+	&quot;surface chemistry&quot;
+]</data>
+      <data key="key4">chemicals</data>
+      <data key="key5">2</data>
+      <data key="key7">shape: (2,)
+Series: &apos;&apos; [i64]
+[
+	46
+	174
+]</data>
+    </node>
+    <node id="n55">
+      <data key="key2">3</data>
+      <data key="key3">shape: (3,)
+Series: &apos;&apos; [cat]
+[
+	&quot;forecasting&quot;
+	&quot;demand prediction&quot;
+	&quot;prediction&quot;
+]</data>
+      <data key="key4">forecasting</data>
+      <data key="key5">2</data>
+      <data key="key7">shape: (2,)
+Series: &apos;&apos; [i64]
+[
+	188
+	406
+]</data>
+    </node>
+
+   <!-- edges -->
+    <edge id="e0" source="n0" target="n44">
+      <data key="key0">red</data>
+      <data key="key1">95</data>
+      <data key="key6">[157]</data>
+      <data key="key8">1</data>
+    </edge>
+    <edge id="e1" source="n0" target="n7">
+      <data key="key0">red</data>
+      <data key="key1">80</data>
+      <data key="key6">[13, 27, 59, 67, 106, 117, 151, 157, 191, 244, 252, 256, 280, 296, 342, 400, 403, 454, 481, 482]</data>
+      <data key="key8">0.84210526315789469</data>
+    </edge>
+    <edge id="e2" source="n0" target="n2">
+      <data key="key0">red</data>
+      <data key="key1">79</data>
+      <data key="key6">[5, 24, 25, 27, 30, 34, 36, 57, 66, 68, 71, 117, 131, 134, 151, 153, 161, 185, 192, 216, 219, 249, 252, 256, 267, 282, 297, 320, 321, 369, 371, 436, 478]</data>
+      <data key="key8">0.83157894736842108</data>
+    </edge>
+    <edge id="e3" source="n0" target="n1">
+      <data key="key0">orange</data>
+      <data key="key1">68</data>
+      <data key="key6">[8, 15, 23, 25, 50, 85, 89, 95, 121, 135, 180, 185, 192, 223, 233, 249, 288, 291, 295, 368, 373, 375, 397, 419, 444, 448, 538]</data>
+      <data key="key8">0.71578947368421053</data>
+    </edge>
+    <edge id="e4" source="n0" target="n3">
+      <data key="key0">orange</data>
+      <data key="key1">51</data>
+      <data key="key6">[32, 66, 85, 96, 129, 151, 161, 211, 221, 256, 262, 267, 335, 342, 373, 382, 391, 398, 400, 403, 404, 435, 452, 453]</data>
+      <data key="key8">0.5368421052631579</data>
+    </edge>
+    <edge id="e5" source="n0" target="n38">
+      <data key="key0">yellow</data>
+      <data key="key1">41</data>
+      <data key="key6">[35, 46, 138, 147, 223, 358, 383, 461]</data>
+      <data key="key8">0.43157894736842106</data>
+    </edge>
+    <edge id="e6" source="n0" target="n53">
+      <data key="key0">yellow</data>
+      <data key="key1">38</data>
+      <data key="key6">[157, 165, 322, 408]</data>
+      <data key="key8">0.39999999999999997</data>
+    </edge>
+    <edge id="e7" source="n0" target="n16">
+      <data key="key0">yellow</data>
+      <data key="key1">35</data>
+      <data key="key6">[141, 165, 180, 216, 297, 393, 520]</data>
+      <data key="key8">0.36842105263157893</data>
+    </edge>
+    <edge id="e8" source="n0" target="n31">
+      <data key="key0">yellow</data>
+      <data key="key1">29</data>
+      <data key="key6">[135, 151, 168, 248, 281, 319, 321, 322, 369]</data>
+      <data key="key8">0.30526315789473685</data>
+    </edge>
+    <edge id="e9" source="n0" target="n37">
+      <data key="key0">yellow</data>
+      <data key="key1">26</data>
+      <data key="key6">[46]</data>
+      <data key="key8">0.27368421052631581</data>
+    </edge>
+    <edge id="e10" source="n0" target="n4">
+      <data key="key0">yellow</data>
+      <data key="key1">25</data>
+      <data key="key6">[32, 66, 76, 171, 331, 342, 432, 453, 455]</data>
+      <data key="key8">0.26315789473684209</data>
+    </edge>
+    <edge id="e11" source="n0" target="n15">
+      <data key="key0">yellow</data>
+      <data key="key1">25</data>
+      <data key="key6">[299, 429, 480, 541]</data>
+      <data key="key8">0.26315789473684209</data>
+    </edge>
+    <edge id="e12" source="n0" target="n21">
+      <data key="key0">grey</data>
+      <data key="key1">20</data>
+      <data key="key6">[19, 21, 141, 149, 211, 502]</data>
+      <data key="key8">0.21052631578947367</data>
+    </edge>
+    <edge id="e13" source="n0" target="n5">
+      <data key="key0">grey</data>
+      <data key="key1">18</data>
+      <data key="key6">[7, 44, 49, 63, 88, 99, 110, 114, 154, 177, 194]</data>
+      <data key="key8">0.18947368421052632</data>
+    </edge>
+    <edge id="e14" source="n0" target="n25">
+      <data key="key0">grey</data>
+      <data key="key1">17</data>
+      <data key="key6">[12, 76, 183, 218]</data>
+      <data key="key8">0.17894736842105263</data>
+    </edge>
+    <edge id="e15" source="n0" target="n22">
+      <data key="key0">grey</data>
+      <data key="key1">17</data>
+      <data key="key6">[349, 399, 414, 473]</data>
+      <data key="key8">0.17894736842105263</data>
+    </edge>
+    <edge id="e16" source="n0" target="n8">
+      <data key="key0">grey</data>
+      <data key="key1">17</data>
+      <data key="key6">[160, 382, 389, 467, 487, 494, 509]</data>
+      <data key="key8">0.17894736842105263</data>
+    </edge>
+    <edge id="e17" source="n0" target="n45">
+      <data key="key0">grey</data>
+      <data key="key1">17</data>
+      <data key="key6">[208, 280]</data>
+      <data key="key8">0.17894736842105263</data>
+    </edge>
+    <edge id="e18" source="n0" target="n13">
+      <data key="key0">grey</data>
+      <data key="key1">16</data>
+      <data key="key6">[67, 70, 119, 178, 289]</data>
+      <data key="key8">0.16842105263157894</data>
+    </edge>
+    <edge id="e19" source="n0" target="n14">
+      <data key="key0">grey</data>
+      <data key="key1">16</data>
+      <data key="key6">[144, 160, 269, 358, 383]</data>
+      <data key="key8">0.16842105263157894</data>
+    </edge>
+    <edge id="e20" source="n0" target="n10">
+      <data key="key0">grey</data>
+      <data key="key1">15</data>
+      <data key="key6">[65, 82, 99, 114, 136, 214, 229]</data>
+      <data key="key8">0.15789473684210525</data>
+    </edge>
+    <edge id="e21" source="n0" target="n29">
+      <data key="key0">grey</data>
+      <data key="key1">15</data>
+      <data key="key6">[105, 143, 423]</data>
+      <data key="key8">0.15789473684210525</data>
+    </edge>
+    <edge id="e22" source="n0" target="n24">
+      <data key="key0">grey</data>
+      <data key="key1">15</data>
+      <data key="key6">[31, 67, 523, 538]</data>
+      <data key="key8">0.15789473684210525</data>
+    </edge>
+    <edge id="e23" source="n0" target="n11">
+      <data key="key0">grey</data>
+      <data key="key1">14</data>
+      <data key="key6">[60, 166, 180, 300, 457]</data>
+      <data key="key8">0.14736842105263157</data>
+    </edge>
+    <edge id="e24" source="n0" target="n12">
+      <data key="key0">grey</data>
+      <data key="key1">14</data>
+      <data key="key6">[89, 252, 333, 353, 423]</data>
+      <data key="key8">0.14736842105263157</data>
+    </edge>
+    <edge id="e25" source="n0" target="n46">
+      <data key="key0">grey</data>
+      <data key="key1">14</data>
+      <data key="key6">[389, 409]</data>
+      <data key="key8">0.14736842105263157</data>
+    </edge>
+    <edge id="e26" source="n0" target="n9">
+      <data key="key0">grey</data>
+      <data key="key1">14</data>
+      <data key="key6">[151, 189, 398, 427, 440, 444, 487]</data>
+      <data key="key8">0.14736842105263157</data>
+    </edge>
+    <edge id="e27" source="n0" target="n39">
+      <data key="key0">grey</data>
+      <data key="key1">13</data>
+      <data key="key6">[195, 244, 280]</data>
+      <data key="key8">0.1368421052631579</data>
+    </edge>
+    <edge id="e28" source="n0" target="n30">
+      <data key="key0">grey</data>
+      <data key="key1">12</data>
+      <data key="key6">[28, 96, 382, 401]</data>
+      <data key="key8">0.12631578947368421</data>
+    </edge>
+    <edge id="e29" source="n0" target="n35">
+      <data key="key0">grey</data>
+      <data key="key1">12</data>
+      <data key="key6">[247, 350, 399, 420, 439]</data>
+      <data key="key8">0.12631578947368421</data>
+    </edge>
+    <edge id="e30" source="n0" target="n32">
+      <data key="key0">grey</data>
+      <data key="key1">12</data>
+      <data key="key6">[105, 117, 304, 364]</data>
+      <data key="key8">0.12631578947368421</data>
+    </edge>
+    <edge id="e31" source="n0" target="n20">
+      <data key="key0">grey</data>
+      <data key="key1">11</data>
+      <data key="key6">[4, 12, 17, 79]</data>
+      <data key="key8">0.11578947368421053</data>
+    </edge>
+    <edge id="e32" source="n0" target="n18">
+      <data key="key0">grey</data>
+      <data key="key1">10</data>
+      <data key="key6">[59, 158, 274, 314]</data>
+      <data key="key8">0.10526315789473684</data>
+    </edge>
+    <edge id="e33" source="n0" target="n33">
+      <data key="key0">grey</data>
+      <data key="key1">10</data>
+      <data key="key6">[144, 185, 227, 427]</data>
+      <data key="key8">0.10526315789473684</data>
+    </edge>
+    <edge id="e34" source="n0" target="n41">
+      <data key="key0">grey</data>
+      <data key="key1">10</data>
+      <data key="key6">[126, 257, 331]</data>
+      <data key="key8">0.10526315789473684</data>
+    </edge>
+    <edge id="e35" source="n0" target="n19">
+      <data key="key0">grey</data>
+      <data key="key1">10</data>
+      <data key="key6">[13, 344, 438, 493]</data>
+      <data key="key8">0.10526315789473684</data>
+    </edge>
+    <edge id="e36" source="n0" target="n27">
+      <data key="key0">grey</data>
+      <data key="key1">9</data>
+      <data key="key6">[24, 38, 61]</data>
+      <data key="key8">0.094736842105263161</data>
+    </edge>
+    <edge id="e37" source="n0" target="n23">
+      <data key="key0">grey</data>
+      <data key="key1">9</data>
+      <data key="key6">[79, 134, 305, 440]</data>
+      <data key="key8">0.094736842105263161</data>
+    </edge>
+    <edge id="e38" source="n0" target="n34">
+      <data key="key0">grey</data>
+      <data key="key1">8</data>
+      <data key="key6">[164, 188, 284]</data>
+      <data key="key8">0.084210526315789472</data>
+    </edge>
+    <edge id="e39" source="n0" target="n48">
+      <data key="key0">grey</data>
+      <data key="key1">8</data>
+      <data key="key6">[40, 242, 300, 303]</data>
+      <data key="key8">0.084210526315789472</data>
+    </edge>
+    <edge id="e40" source="n0" target="n6">
+      <data key="key0">grey</data>
+      <data key="key1">8</data>
+      <data key="key6">[73, 138, 411]</data>
+      <data key="key8">0.084210526315789472</data>
+    </edge>
+    <edge id="e41" source="n0" target="n17">
+      <data key="key0">grey</data>
+      <data key="key1">8</data>
+      <data key="key6">[67, 170, 395]</data>
+      <data key="key8">0.084210526315789472</data>
+    </edge>
+    <edge id="e42" source="n0" target="n50">
+      <data key="key0">grey</data>
+      <data key="key1">8</data>
+      <data key="key6">[49, 65, 92, 154, 155]</data>
+      <data key="key8">0.084210526315789472</data>
+    </edge>
+    <edge id="e43" source="n0" target="n49">
+      <data key="key0">grey</data>
+      <data key="key1">7</data>
+      <data key="key6">[188, 406]</data>
+      <data key="key8">0.073684210526315783</data>
+    </edge>
+    <edge id="e44" source="n0" target="n52">
+      <data key="key0">grey</data>
+      <data key="key1">7</data>
+      <data key="key6">[125, 477, 511]</data>
+      <data key="key8">0.073684210526315783</data>
+    </edge>
+    <edge id="e45" source="n0" target="n26">
+      <data key="key0">grey</data>
+      <data key="key1">7</data>
+      <data key="key6">[149, 219, 267, 335]</data>
+      <data key="key8">0.073684210526315783</data>
+    </edge>
+    <edge id="e46" source="n0" target="n54">
+      <data key="key0">grey</data>
+      <data key="key1">6</data>
+      <data key="key6">[28, 347, 487]</data>
+      <data key="key8">0.063157894736842107</data>
+    </edge>
+    <edge id="e47" source="n0" target="n43">
+      <data key="key0">grey</data>
+      <data key="key1">6</data>
+      <data key="key6">[71, 391, 490]</data>
+      <data key="key8">0.063157894736842107</data>
+    </edge>
+    <edge id="e48" source="n0" target="n40">
+      <data key="key0">grey</data>
+      <data key="key1">6</data>
+      <data key="key6">[68, 74, 386, 447]</data>
+      <data key="key8">0.063157894736842107</data>
+    </edge>
+    <edge id="e49" source="n0" target="n36">
+      <data key="key0">grey</data>
+      <data key="key1">5</data>
+      <data key="key6">[355, 387]</data>
+      <data key="key8">0.052631578947368418</data>
+    </edge>
+    <edge id="e50" source="n0" target="n47">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[11, 155]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e51" source="n0" target="n55">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[45, 492, 509]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e52" source="n0" target="n51">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[230, 275]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e53" source="n0" target="n28">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[343, 507]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e54" source="n0" target="n42">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[126]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e55" source="n1" target="n2">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[25, 185, 192, 249]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e56" source="n1" target="n4">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[377]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e57" source="n1" target="n3">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[85, 373]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e58" source="n1" target="n12">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[89]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e59" source="n1" target="n11">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[180]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e60" source="n1" target="n31">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[135]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e61" source="n1" target="n33">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[185]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e62" source="n1" target="n16">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[180]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e63" source="n1" target="n38">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[223]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e64" source="n1" target="n24">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[538]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e65" source="n1" target="n9">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[444]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e66" source="n2" target="n7">
+      <data key="key0">grey</data>
+      <data key="key1">5</data>
+      <data key="key6">[27, 117, 151, 252, 256]</data>
+      <data key="key8">0.052631578947368418</data>
+    </edge>
+    <edge id="e67" source="n2" target="n31">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[151, 321, 369]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e68" source="n2" target="n3">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[66, 151, 161, 256, 267]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e69" source="n2" target="n12">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[72, 252]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e70" source="n2" target="n16">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[216, 297]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e71" source="n2" target="n26">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[219, 267]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e72" source="n2" target="n40">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[68]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e73" source="n2" target="n43">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[53, 71]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e74" source="n2" target="n27">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[24]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e75" source="n2" target="n4">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[66]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e76" source="n2" target="n33">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[185]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e77" source="n2" target="n32">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[117]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e78" source="n2" target="n23">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[134]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e79" source="n2" target="n9">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[151]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e80" source="n3" target="n7">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[151, 256, 342, 400, 403]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e81" source="n3" target="n30">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[96, 382]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e82" source="n3" target="n26">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[267, 335, 529]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e83" source="n3" target="n4">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[32, 66, 342, 453]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e84" source="n3" target="n21">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[211, 529]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e85" source="n3" target="n43">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[391]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e86" source="n3" target="n9">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[151, 398]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e87" source="n3" target="n31">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[151]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e88" source="n3" target="n8">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[382]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e89" source="n4" target="n25">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[76]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e90" source="n4" target="n41">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[331]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e91" source="n4" target="n7">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[342]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e92" source="n5" target="n10">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[99, 114]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e93" source="n5" target="n50">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[49, 154]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e94" source="n6" target="n41">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[80]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e95" source="n6" target="n42">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[80]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e96" source="n6" target="n38">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[138]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e97" source="n7" target="n44">
+      <data key="key0">grey</data>
+      <data key="key1">5</data>
+      <data key="key6">[157]</data>
+      <data key="key8">0.052631578947368418</data>
+    </edge>
+    <edge id="e98" source="n7" target="n45">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[280]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e99" source="n7" target="n39">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[244, 280]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e100" source="n7" target="n9">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[151]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e101" source="n7" target="n24">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[67]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e102" source="n7" target="n17">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[67]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e103" source="n7" target="n12">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[252]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e104" source="n7" target="n18">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[59]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e105" source="n7" target="n53">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[157]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e106" source="n7" target="n13">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[67]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e107" source="n7" target="n32">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[117]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e108" source="n7" target="n19">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[13]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e109" source="n7" target="n31">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[151]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e110" source="n8" target="n46">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[389]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e111" source="n8" target="n55">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[509]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e112" source="n8" target="n9">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[487]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e113" source="n8" target="n30">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[382]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e114" source="n8" target="n14">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[160]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e115" source="n8" target="n54">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[487]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e116" source="n9" target="n54">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[487]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e117" source="n9" target="n23">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[440]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e118" source="n9" target="n33">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[427]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e119" source="n9" target="n31">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[151]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e120" source="n10" target="n50">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[65]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e121" source="n11" target="n16">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[180]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e122" source="n11" target="n48">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[300]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e123" source="n12" target="n29">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[423]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e124" source="n13" target="n17">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[67]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e125" source="n13" target="n24">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[67]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e126" source="n14" target="n33">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[144]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e127" source="n14" target="n38">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[358, 383]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e128" source="n16" target="n53">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[165]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e129" source="n16" target="n21">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[141]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e130" source="n17" target="n24">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[67]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e131" source="n20" target="n23">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[79]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e132" source="n20" target="n25">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[12]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e133" source="n21" target="n26">
+      <data key="key0">grey</data>
+      <data key="key1">4</data>
+      <data key="key6">[149, 529]</data>
+      <data key="key8">0.042105263157894736</data>
+    </edge>
+    <edge id="e134" source="n22" target="n35">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[399]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e135" source="n28" target="n48">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[380]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e136" source="n29" target="n32">
+      <data key="key0">grey</data>
+      <data key="key1">3</data>
+      <data key="key6">[105]</data>
+      <data key="key8">0.031578947368421054</data>
+    </edge>
+    <edge id="e137" source="n30" target="n54">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[28]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e138" source="n31" target="n53">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[322]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e139" source="n34" target="n49">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[188]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+    <edge id="e140" source="n37" target="n38">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[46]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e141" source="n39" target="n45">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[280]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e142" source="n41" target="n42">
+      <data key="key0">grey</data>
+      <data key="key1">2</data>
+      <data key="key6">[80, 126]</data>
+      <data key="key8">0.021052631578947368</data>
+    </edge>
+    <edge id="e143" source="n44" target="n53">
+      <data key="key0">grey</data>
+      <data key="key1">5</data>
+      <data key="key6">[157]</data>
+      <data key="key8">0.052631578947368418</data>
+    </edge>
+    <edge id="e144" source="n47" target="n50">
+      <data key="key0">grey</data>
+      <data key="key1">1</data>
+      <data key="key6">[155]</data>
+      <data key="key8">0.010526315789473684</data>
+    </edge>
+
+  </graph>
+</graphml>
