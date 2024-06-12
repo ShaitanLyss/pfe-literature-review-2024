@@ -14,7 +14,8 @@ from utils import perr
 
 adj_tags = ["JJ", "JJR", "JJS"]
 noun_tags = ["NN", "NNS", "NNP", "NNPS"]
-skip_words = ["abstract", "%", "paper", "study", "use"]
+# skip_words = ["abstract", "%", "paper", "study", "use"]
+skip_words = []
 
 
 def get_terms_from_docs(
