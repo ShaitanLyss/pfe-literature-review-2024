@@ -1,4 +1,9 @@
-polars[xlsx2csv,plot, fastexcel]
+polars[xlsx2csv,plot,fastexcel]
 gnnlens
 graph-tool
 pyclustering
+# git+https://github.com/paudan/opennlp_python
+nltk
+spacy
+# Note: wheels only available on linux.
+jax[cuda12]

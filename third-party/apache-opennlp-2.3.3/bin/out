@@ -1,0 +1,13 @@
+Loading POS Tagger model ... 
+done (0.144s)
+
+hey_INTJ mate_VERB i'm_PRON+AUX your_PRON favourite_ADJ bro_NOUN
+die,_PUNCT die,_PUNCT die_VERB
+who_PRON the_DET hell_NOUN are_AUX you_PRON ?_PUNCT
+i'll_PRON+AUX have_VERB you_PRON know_VERB that_SCONJ i'm_PRON+AUX the_DET one_NOUN and_CCONJ only_ADJ king_NOUN of_ADP this_DET country,_NOUN Lucius_PROPN the_DET mighty_NOUN
+Average: 121.2 sent/s 
+
+Total: 4 sent
+Runtime: 0.033s
+Execution time: 0.195 seconds
+
