@@ -3,6 +3,7 @@ from time import time
 import sys
 from dataclasses import dataclass
 import jax
+from jax._src.dtypes import dtype
 import jax.experimental.sparse as sparse
 import jax.numpy as jnp
 import numpy as np
@@ -143,20 +144,22 @@ class AssociationDfParams:
     id: str = "id"
     other_id: str = "other_id"
     count: str = "count"
+    binary: bool = False
 
 
 def get_mat_from_association_df(params: AssociationDfParams):
-    data = params.df[params.count].to_numpy()
-    indices = np.concatenate(
-        params.df.select(pl.concat_list(params.id, params.other_id).alias("indices"))[
-            "indices"
-        ].to_numpy()
-    ).reshape(len(params.df), 2)
+    data = 1 if params.binary else jnp.array(params.df[params.count])
+    # indices = np.concatenate(
+    #     params.df.select(pl.concat_list(params.id, params.other_id).alias("indices"))[
+    #         "indices"
+    #     ].to_numpy()
+    # ).reshape(len(params.df), 2)
+    # indices = jnp.array(indices)
+    # print(data, indices)
     n = params.df.select(pl.col(params.id).max())[0, 0] + 1
     p = params.df.select(pl.col(params.other_id).max())[0, 0] + 1
-    kw_paper = sparse.BCOO(
-        (jnp.array(data), jnp.array(indices)), shape=(n, p)
-    ).todense()
+    kw_paper = jnp.zeros((n,p), dtype=jnp.uint32).at[params.df[params.id].to_numpy(), params.df[params.other_id].to_numpy()].set(data)
+    # kw_paper = sparse.BCOO((data, jnp.array(indices)), shape=(n, p)).todense()
     return kw_paper
 
 
@@ -219,7 +222,11 @@ def get_relevant_terms(
 
 
 def vos_viewer(
-    df: pl.DataFrame, doc_id: str, text_cols: Iterable[str], relevance_threshold: float
+    df: pl.DataFrame,
+    doc_id: str,
+    text_cols: Iterable[str],
+    relevance_threshold: float,
+    binary_occurences=False,
 ) -> VOSViewerReturn:
     print("Identifying terms...", file=sys.stderr)
     t0 = time()
@@ -236,7 +243,7 @@ def vos_viewer(
     print("Computing relevant terms...", file=sys.stderr)
     t0 = time()
     df_relevant_terms, cooc = get_relevant_terms(
-        AssociationDfParams(df=df_term_doc, id="term_id", other_id="doc_id"),
+        AssociationDfParams(df=df_term_doc, id="term_id", other_id="doc_id", binary=binary_occurences),
         relevance_threshold=relevance_threshold,
     )
     print("Done in {:.2}s.".format(time() - t0), file=sys.stderr)
@@ -246,4 +253,8 @@ def vos_viewer(
         .select("id", "term", "doc_ids", "count", "paper_count", "relevance")
     ).collect()
 
-    return VOSViewerReturn(relevant_terms=res_df, cooccurences_mat=cooc)
+    # Keep only relevant terms in the cooc mat
+    relevant_indices = jnp.array(res_df["id"])
+    relevant_cooc = cooc[jnp.ix_(relevant_indices, relevant_indices)]
+
+    return VOSViewerReturn(relevant_terms=res_df, cooccurences_mat=relevant_cooc)
